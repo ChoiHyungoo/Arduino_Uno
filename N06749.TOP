@@ -1,0 +1,54 @@
+(SKIDL
+    (Circuits
+      ("MAIN"
+      (Parts
+	("arduino_uno1@@D3.2" IbisIO
+	 (refDes  "D3")
+	 (Props
+	   (bufferModel  "CDSDefaultIO_2p5v")
+	   (_SXDesignName  "arduino_uno1")
+	 )
+	 (Terms 	  ("arduino_uno1N05971" "2") 
+	 )
+	)
+	("arduino_uno1@@RN1.3.6" Resistor
+	 (refDes  "RN1")
+	 (model  "DEFAULT_RESISTOR_PACK_4_10000OHM")
+	 (value  "10000.000000")
+	 (Props
+	   (_SXDesignName  "arduino_uno1")
+	 )
+	 (Terms 	  ("arduino_uno1N05971" "3") 	  ("arduino_uno1N06749" "6") 
+	 )
+	)
+	("arduino_uno1@@U3.24" IbisIO
+	 (refDes  "U3")
+	 (Props
+	   (bufferModel  "CDSDefaultIO_2p5v")
+	   (_SXDesignName  "arduino_uno1")
+	 )
+	 (Terms 	  ("arduino_uno1N05971" "24") 
+	 )
+	)
+      )
+      (Nodes
+        ("arduino_uno1N05971"
+           (terms  "arduino_uno1@@D3.2.1"  "arduino_uno1@@RN1.3.6.1"  "arduino_uno1@@U3.24.1"           )
+        )
+        ("arduino_uno1N06749"
+           (terms  "arduino_uno1@@RN1.3.6.2"           )
+        )
+      )
+      (Constraints
+	("RATSNEST_SCHEDULE"  "MIN_DAISY_CHAIN")
+      )
+      )
+    )
+ (Subckts
+ )
+ (Props
+   (DesUnits "mils 1")
+   (Revision "14.208")
+   (stimulusAdjust "yes")
+ )
+)

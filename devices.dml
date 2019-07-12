@@ -1,0 +1,78 @@
+("devices.dml" 
+ (PackagedDevice 
+  ("DEFAULT_CAPACITOR_1e-07pF_1_2" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_1e-07pF_1_2 2 1
+C1 2 1 1e-019
+.ends DEFAULT_CAPACITOR_1e-07pF_1_2
+" ) 
+   (PinConnections 
+    (2 1 ) 
+    (1 2 ) ) ) 
+  ("DEFAULT_CAPACITOR_2.2e-011pF_1_2" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_2.2e-011pF_1_2 2 1
+C1 2 1 2.2e-023
+.ends DEFAULT_CAPACITOR_2.2e-011pF_1_2
+" ) 
+   (PinConnections 
+    (2 1 ) 
+    (1 2 ) ) ) 
+  ("DEFAULT_RESISTOR_PACK_4_0.001OHM" 
+   (ESpice ".subckt DEFAULT_RESISTOR_PACK_4_0.001OHM 1 8 2 7 3 6 4 5
+R1 1 8 0.001
+R2 2 7 0.001
+R3 3 6 0.001
+R4 4 5 0.001
+.ends DEFAULT_RESISTOR_PACK_4_0.001OHM
+" ) 
+   (PinConnections 
+    (1 8 ) 
+    (8 1 ) 
+    (2 7 ) 
+    (7 2 ) 
+    (3 6 ) 
+    (6 3 ) 
+    (4 5 ) 
+    (5 4 ) ) ) 
+  ("DEFAULT_CAPACITOR_1e-06pF_1_2" 
+   (ESpice ".subckt DEFAULT_CAPACITOR_1e-06pF_1_2 2 1
+C1 2 1 1e-018
+.ends DEFAULT_CAPACITOR_1e-06pF_1_2
+" ) 
+   (PinConnections 
+    (2 1 ) 
+    (1 2 ) ) ) 
+  ("DEFAULT_RESISTOR_PACK_4_22.000000OHM" 
+   (ESpice ".subckt DEFAULT_RESISTOR_PACK_4_22.000000OHM 1 8 2 7 3 6 4 5
+R1 1 8 22
+R2 2 7 22
+R3 3 6 22
+R4 4 5 22
+.ends DEFAULT_RESISTOR_PACK_4_22.000000OHM
+" ) 
+   (PinConnections 
+    (1 8 ) 
+    (8 1 ) 
+    (2 7 ) 
+    (7 2 ) 
+    (3 6 ) 
+    (6 3 ) 
+    (4 5 ) 
+    (5 4 ) ) ) 
+  (DEFAULT_RESISTOR_PACK_4_10000OHM 
+   (ESpice ".subckt DEFAULT_RESISTOR_PACK_4_10000OHM 1 8 2 7 3 6 4 5
+R1 1 8 10000
+R2 2 7 10000
+R3 3 6 10000
+R4 4 5 10000
+.ends DEFAULT_RESISTOR_PACK_4_10000OHM
+" ) 
+   (PinConnections 
+    (1 8 ) 
+    (8 1 ) 
+    (2 7 ) 
+    (7 2 ) 
+    (3 6 ) 
+    (6 3 ) 
+    (4 5 ) 
+    (5 4 ) ) ) ) 
+ (LibraryVersion 136.2 ) ) 
